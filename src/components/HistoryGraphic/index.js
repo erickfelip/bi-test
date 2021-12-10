@@ -1,17 +1,12 @@
 import React from "react";
-import {View, Dimensions } from 'react-native'
+import {View } from 'react-native'
 import styles from'./styles'
-import { LineChart } from "react-native-chart-kit";
 
 
-
-export default function HistoryGraphic(props){
+export default function HistoryGraphic(){
     return(
-        <View >
-            <LineChart 
+        <View style={styles.contentGraphic}>
 
-        
-            />
         </View>
     )
 }
