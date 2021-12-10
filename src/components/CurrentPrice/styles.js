@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
 
     },
     currentPrice:{
-        color:"#f50d41",
+        color:"#3366ff",
         fontSize:26,
         fontWeight:'bold',
         paddingTop:20,
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 
     },
     textPrice:{
-        color:'#fff',
+        color:'#000000',
         fontSize:20,
         fontWeight:'bold',
         paddingTop:10

@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     contentGraphic: {
         width:"80%",
         height:220,
-        backgroundColor:'#232323',
+        backgroundColor:'#bfbfbf',
         borderRadius:20,
         
     },
