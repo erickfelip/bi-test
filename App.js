@@ -8,8 +8,8 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar
-      backgroundColor="#000000"
-      barStyle="light-content"
+      backgroundColor="#fff"
+      barStyle="dark-content"
       />
       <CurrentPrice/>
       <HistoryGraphic/>
