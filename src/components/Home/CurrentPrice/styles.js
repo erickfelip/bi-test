@@ -2,13 +2,17 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     headerPrice: {
-        width:'100%',
+        backgroundColor:'#3366ff',
+        width:'80%',
+        borderRadius:20,
         height:"auto",
         alignItems:'center',
+        marginTop:20,
+        marginBottom:20,
 
     },
     currentPrice:{
-        color:"#3366ff",
+        color:"#fff",
         fontSize:26,
         fontWeight:'bold',
         paddingTop:20,
@@ -16,8 +20,8 @@ const styles = StyleSheet.create({
 
     },
     textPrice:{
-        color:'#000000',
-        fontSize:20,
+        color:'#fff',
+        fontSize:24,
         fontWeight:'bold',
         paddingTop:10
     

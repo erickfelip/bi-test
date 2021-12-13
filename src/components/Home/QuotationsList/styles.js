@@ -2,9 +2,9 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     filters: {
-        width:"90%",
+        width:"80%",
         flexDirection:"row",
-        paddingVertical: 10,
+        paddingVertical: 15,
         justifyContent:"space-evenly",
         
     },
