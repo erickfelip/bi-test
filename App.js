@@ -38,7 +38,7 @@ async function getListCoins(url){
   const queryCoinList = Object.keys(selectListQuotations).map((key)=>{
     return {
       data: key.split("-").reverse().join("/"),
-      valor: selectListQuotations[key]
+      valor: selectListQuotations[key].toFixed(2)
     }
   });
   let data = queryCoinList.reverse();
@@ -52,7 +52,7 @@ async function getPriceCoinsGraphic(url){
   let returnApiG = await responseG.json()
   let selectListQuotationsG = returnApiG.bpi
   const queryCoinListG = Object.keys(selectListQuotationsG).map((key)=>{
-    return selectListQuotationsG[key];
+    return selectListQuotationsG[key].toFixed(2);
   });
   let dataG = queryCoinListG;
   return dataG;

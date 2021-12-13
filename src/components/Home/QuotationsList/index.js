@@ -42,7 +42,6 @@ const daysQuery = props.filterDay
             </TouchableOpacity>
 
         </View>
-        <ScrollView>
             <FlatList
             data={props.listTransactions}
             renderItem={({item})=>{
@@ -50,7 +49,6 @@ const daysQuery = props.filterDay
                 />
             }}
             />
-        </ScrollView>
         </Fragment>
     )
 }
