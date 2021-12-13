@@ -7,7 +7,7 @@ export default function CurrentPrice(props){
     return(
         <View style={styles.headerPrice}>
             <Text style={styles.textPrice}>Faturamento do Dia</Text>
-            <Text style={styles.currentPrice}>${props.lastCotation}</Text> 
+            <Text style={styles.currentPrice}>$ {props.lastCotation}</Text> 
         </View>
     )
 }

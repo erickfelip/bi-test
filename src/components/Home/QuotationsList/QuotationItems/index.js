@@ -13,7 +13,7 @@ export default function QuotationItems(props){
             </View>
          </View>
             <View style={styles.contextRight}>
-                <Text style={styles.price}>{props.valor}</Text>
+                <Text style={styles.price}>$ {props.valor}</Text>
             </View>
         </View> 
     )
