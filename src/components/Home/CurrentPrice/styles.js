@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     headerPrice: {
-        backgroundColor:'#3366ff',
+        backgroundColor:'#3F3F3F',
         width:'80%',
         borderRadius:20,
         height:"auto",

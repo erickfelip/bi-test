@@ -4,7 +4,7 @@ const styles = StyleSheet.create({
     mainContent: {
         width:"85%",
         height:'auto',
-        backgroundColor:'#3366ff',
+        backgroundColor:'#3F3F3F',
         borderRadius:10,
         marginLeft:'6%',
         marginTop:10,

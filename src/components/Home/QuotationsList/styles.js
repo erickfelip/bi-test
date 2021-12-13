@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     buttonQuery:{
         width:50,
         height:30,
-        backgroundColor:'#3366ff',
+        backgroundColor:'#3F3F3F',
         borderRadius:50,
         alignItems:'center',
         justifyContent:'center',

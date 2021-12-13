@@ -15,7 +15,7 @@ export default function HistoryGraphic(props){
                 },
             ],
             }}
-            width={Dimensions.get("window").width} // from react-native
+            width={350} // from react-native
             height={220}
             yAxisLabel="$"
             yAxisSuffix="k"
@@ -29,16 +29,17 @@ export default function HistoryGraphic(props){
             decimalPlaces: 0, // optional, defaults to 2dp
             color: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
             labelColor: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
-            style:{
-                borderRadius:25,
-            },
-            propsForDots: {
-            r: "1",
-            strokeWidth: "1",
-            stroke: "#3366ff",
-            },
+              propsForDots: {
+                r: "2",
+                strokeWidth: "1",
+                stroke: "#ffa726"
+              },
             }}
             bezier//ondas suaves do grafico
+            style={{
+                marginVertical: 8,
+                borderRadius: 16,
+            }}
             />
         </View>
     )
