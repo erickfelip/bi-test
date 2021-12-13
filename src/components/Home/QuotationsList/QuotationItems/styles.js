@@ -2,19 +2,20 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     mainContent: {
-        width:"80%",
+        width:"85%",
         height:'auto',
         backgroundColor:'#3366ff',
         borderRadius:10,
-        marginLeft:'1%',
-        marginBottom: 15,
+        marginLeft:'6%',
+        marginTop:10,
+        marginBottom: 25,
         flexDirection:'row',
         alignItems:'center',
-        padding:10,
+        padding:12,
     },
     dayCotation:{
         fontSize:16,
-        paddingLeft:2,
+        paddingLeft:5,
         color:'#fff',
         fontWeight:"bold",
     },
@@ -24,7 +25,7 @@ const styles = StyleSheet.create({
         fontSize:16,
     },
     contextLeft:{
-        width:"36%",
+        width:"40%",
         height:"100%",
         alignItems:"flex-start"
     },

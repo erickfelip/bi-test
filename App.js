@@ -34,6 +34,7 @@ async function getListCoins(url){
   let returnApi = await response.json()
   let selectListQuotations = returnApi.bpi
   //usar o map para gerar um novo array, com uma nova lista de dados personalizada
+  //object.keys retorna um array cujo os  elementos são strings
   const queryCoinList = Object.keys(selectListQuotations).map((key)=>{
     return {
       data: key.split("-").reverse().join("/"),
@@ -99,8 +100,8 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar
-      backgroundColor="#fff"
-      barStyle="dark-content"
+      backgroundColor="#232323"
+      barStyle="light-content"
       />
       <CurrentPrice lastCotation={price}/>
       <HistoryGraphic infoDataGraphic={coinsGraphicList}/>
@@ -113,7 +114,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#232323',
     alignItems: 'center',
     paddingTop: Platform.OS === "android" ? 40: 0,
     justifyContent: 'center',
